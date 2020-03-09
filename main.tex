@@ -8685,6 +8685,60 @@ Logo, para resolver a integral, façamos $t = \sen x \implies \dd t = \cos x dx$
 
 \newpage
 
+\subsection{Álgebra Linear I}
+
+\subsubsection{VE 1 - 2019}
+
+\paragraph{Quest\~ao 1:}
+
+Do enunciado, exprimimos as rela\c{c}\~oes:
+
+\begin{displaymath}
+    \left\{\begin{array}{l}
+        \sum^r_{i=1}\alpha_i v_i=0\\
+        \\
+        \sum^r_{i=1}\beta_i v_i=0
+    \end{array}\right\\
+    
+\end{displaymath}
+    
+O conjunto $\{v_1,\ldots,v_r\}$ \'e L.D., ent\~ao existe $\alpha_i\neq0$ e $\beta_i\neq0$. Ent\~ao, suponha, sem perda de generalidade, que $\alpha_r\neq0$ e $\beta_r\neq0$, de modo que
+
+\begin{displaymath}
+    \left\{\begin{array}{l}
+        \alpha_rv_r=- \sum^{r-1}_{i=1}\alpha_i v_i\\
+        \\
+        \beta_rv_r=- \sum^{r-1}_{i=1}\beta_i v_i
+    \end{array}\right\\
+    \Rightarrow
+    \left\{\begin{array}{l}
+        \alpha_r\beta_rv_r=- \sum^{r-1}_{i=1}\alpha_i \beta_rv_i\\
+        \\
+        \alpha_r\beta_rv_r=- \sum^{r-1}_{i=1}\beta_i \alpha_rv_i
+    \end{array}\right\\
+\end{displaymath}
+
+\indent Subtraindo uma da outra, temos:
+
+\begin{displaymath}
+    \alpha_r\beta_rv_r-\alpha_r\beta_rv_r=\sum^{r-1}_{i=1}(\beta_i \alpha_r-\alpha_i\beta_r)v_i
+    \Rightarrow
+    \sum^{r-1}_{i=1}(\beta_i \alpha_r-\alpha_i\beta_r)v_i=0
+\end{displaymath}
+
+Como $\{v_1,\ldots,v_{r-1}\}$ \'e L.I., ent\~ao $\beta_i \alpha_r-\alpha_i\beta_r=0$, com $i=1,\ldots,(r-1)$. Assim,
+
+\begin{displaymath}
+    \beta_i \alpha_r-\alpha_i\beta_r=0
+    \Rightarrow
+    \beta_i \alpha_r=\alpha_i\beta_r
+    \Rightarrow
+    \beta_i=\frac{\beta_r}{\alpha_r}\alpha_i, \forall i
+    \Rightarrow
+    B=\frac{\beta_r}{\alpha_r}A
+\end{displaymath}
+
+com $\frac{\beta_r}{\alpha_r}\neq0$, portanto $B$ \'e paralelo a $A$.
 
 \subsection{Química I}
 
